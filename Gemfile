@@ -21,8 +21,9 @@ group :development do
   gem 'quiet_assets'
   # capistrano
   gem 'capistrano-rails'
-  gem 'capistrano-rvm'
+  # gem 'capistrano-rvm'
   gem 'capistrano-passenger'
+  gem 'capistrano-rbenv'
   # pry
   gem 'pry-rails'
 end
