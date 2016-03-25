@@ -30,4 +30,4 @@ public/system/
 dump.rdb
 
 # letsencrypt
-lib/letsencrypt_plugin/challenge/challenge
+lib/letsencrypt_plugin/challenge/*
