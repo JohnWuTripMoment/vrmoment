@@ -59,6 +59,8 @@ namespace :deploy do
     end
   end
 
+  before 'deploy:restart', 'letsencrypt:generate'
+
   after :publishing, 'deploy:restart'
   
   after :finishing, 'deploy:cleanup'
