@@ -1,9 +1,7 @@
 namespace :letsencrypt do
-
-  # task :plugin => ["letsencrypt_plugin"]
-
   desc "regenerate let's encrypt pem"
   task :generate => :environment do
-    # 'letsencrypt:plugin'
+    # rm_rf "home/apps/vrmoment/current/lib/letsencrypt_plugin/challenge/challenge"
+    # Rake::Task["letsencrypt_plugin"].execute
   end
 end
