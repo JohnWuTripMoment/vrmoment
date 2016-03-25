@@ -16,7 +16,7 @@ set :scm, :git
 set :tmp_dir, "/home/apps/tmp"
 
 # set :rvm_type, :ubuntu
-# set :rvm_custom_path, '~/home/ubuntu/.rvm'  # only needed if not detected
+set :rvm_custom_path, '/home/ubuntu/.rvm'  # only needed if not detected
 
 # Default value for :format is :pretty
 # set :format, :pretty
