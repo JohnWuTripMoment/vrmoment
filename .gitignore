@@ -28,6 +28,3 @@ public/system/
 # for mac
 .DS_Store
 dump.rdb
-
-# letsencrypt
-lib/letsencrypt_plugin/challenge/*
